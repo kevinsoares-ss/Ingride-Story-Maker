@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingride Britto - Story Maker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f7f5ef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 420px;
+      background: #fffaf3;
+      border-radius: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    /* CABEÇALHO */
+    .header {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+      border-bottom-left-radius: 80px 30px;
+      border-bottom-right-radius: 80px 30px;
+      background: linear-gradient(to bottom, #eee2cf, #fffaf3);
+    }
+
+    .header img.bg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-bottom-left-radius: 80px 30px;
+      border-bottom-right-radius: 80px 30px;
+      filter: brightness(0.95);
+    }
+
+    .header img.profile {
+        align-items: center;
+        justify-content: center;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      border: 5px solid #fff;
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* CONTEÚDO */
+    .info {
+      margin-top: 70px;
+    }
+
+    .info h2 {
+      color: #4c3b2f;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .info p {
+      color: #7a6b5c;
+      font-size: 14px;
+      margin: 5px 0 20px;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      font-size: 22px;
+      margin-bottom: 25px;
+    }
+
+    .social a {
+      color: #5a4a3b;
+      transition: 0.3s;
+    }
+
+    .social a:hover {
+      color: #b99767;
+    }
+
+    /* LINKS */
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 0 25px 25px;
+    }
+
+    .link-box {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+      padding: 12px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .link-box:hover {
+      transform: scale(1.03);
+    }
+
+    .link-box img {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .link-box span {
+      font-weight: 500;
+      color: #4a3b2d;
+      font-size: 15px;
+    }
+
+    .link-box i {
+      margin-right: 8px;
+      font-size: 20px;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <!-- FOTO DE FUNDO -->
+      <img class="bg" src="ba7d699d-c8e1-4027-b43c-0952af269a03.jpg" alt="Fundo de cílios">
+      <!-- FOTO DE PERFIL -->
+      <img class="profile" src="ba7d699d-c8e1-4027-b43c-0952af269a03.jpg" alt="Ingride Britto">
+    </div>
+
+    <div class="info">
+      <h2>Ingride Britto</h2>
+      <p>Story Maker ✨</p>
+    </div>
+
+    <div class="social">
+      <a href="https://www.instagram.com/ingride_britto/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=5585989625943&fbclid=PAZXh0bgNhZW0CMTEAAaeo_BglJRj8n6XfyEHSaJBBH_AH7dO1mz4_r1Bzjag8m2XnhMZlZvOc-FM4tQ_aem_t2TizU-Pocpi8TGt0wUwbQ"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+ 
+      <a href="https://api.whatsapp.com/send?phone=5585989625943&fbclid=PAZXh0bgNhZW0CMTEAAaeo_BglJRj8n6XfyEHSaJBBH_AH7dO1mz4_r1Bzjag8m2XnhMZlZvOc-FM4tQ_aem_t2TizU-Pocpi8TGt0wUwbQ" class="link-box">
+        <img src="ba7d699d-c8e1-4027-b43c-0952af269a03.jpg" alt="">
+        <span>Dúvidas e Agendamentos ✨</span>
+      </a>
+
+
+      <a href="https://www.instagram.com/ingride_britto/" class="link-box">
+        <img src="ba7d699d-c8e1-4027-b43c-0952af269a03.jpg" alt="">
+        <span>Portfólio ✨</span>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
